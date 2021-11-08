@@ -10,8 +10,8 @@ while getopts ":e" option; do
             echo "|                 !!!Timing info when secret = 0!!!                 |"
             echo "|                   !!!PLEASE WAIT FOR A WHILE!!!                   |"
             echo "---------------------------------------------------------------------"
-            bash run_gem5.sh > /home/gem5/unXpecCode/TimingDifference/EvictionSet_Sec0.txt
-            cd /home/gem5/unXpecCode/TimingDifference
+            bash run_gem5.sh > /home/gem5/unXpec/TimingDifference/EvictionSet_Sec0.txt
+            cd /home/gem5/unXpec/TimingDifference
             echo "================!!!Results see EvictionSet_Sec0.txt!!!================"
             echo "*********************************************************************"
             echo ""
@@ -23,8 +23,8 @@ while getopts ":e" option; do
             echo "|                 !!!Timing info when secret = 1!!!                 |"
             echo "|                   !!!PLEASE WAIT FOR A WHILE!!!                   |"
             echo "---------------------------------------------------------------------"
-            bash run_gem5.sh > /home/gem5/unXpecCode/TimingDifference/EvictionSet_Sec1.txt
-            cd /home/gem5/unXpecCode/TimingDifference
+            bash run_gem5.sh > /home/gem5/unXpec/TimingDifference/EvictionSet_Sec1.txt
+            cd /home/gem5/unXpec/TimingDifference
             echo "================!!!Results see EvictionSet_Sec1.txt!!!================"
             echo "*********************************************************************"
             echo ""
@@ -42,8 +42,8 @@ if [[ default -eq 1 ]]; then
     echo "|                 !!!Timing info when secret = 0!!!                 |"
     echo "|                   !!!PLEASE WAIT FOR A WHILE!!!                   |"
     echo "---------------------------------------------------------------------"
-    bash run_gem5.sh > /home/gem5/unXpecCode/TimingDifference/NoEvictionSet_Sec0.txt
-    cd /home/gem5/unXpecCode/TimingDifference
+    bash run_gem5.sh > /home/gem5/unXpec/TimingDifference/NoEvictionSet_Sec0.txt
+    cd /home/gem5/unXpec/TimingDifference
     echo "================!!!Results see NoEvictionSet_Sec0.txt!!!================"
     echo "*********************************************************************"
     echo ""
@@ -55,8 +55,8 @@ if [[ default -eq 1 ]]; then
     echo "|                 !!!Timing info when secret = 1!!!                 |"
     echo "|                   !!!PLEASE WAIT FOR A WHILE!!!                   |"
     echo "---------------------------------------------------------------------"
-    bash run_gem5.sh > /home/gem5/unXpecCode/TimingDifference/NoEvictionSet_Sec1.txt
-    cd /home/gem5/unXpecCode/TimingDifference
+    bash run_gem5.sh > /home/gem5/unXpec/TimingDifference/NoEvictionSet_Sec1.txt
+    cd /home/gem5/unXpec/TimingDifference
     echo "================!!!Results see NoEvictionSet_Sec1.txt!!!================"
     echo "*********************************************************************"
     echo ""

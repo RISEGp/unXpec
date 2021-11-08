@@ -10,8 +10,8 @@ while getopts ":e" option; do
             echo "|                         !!!Timing info!!!                         |"
             echo "|                   !!!PLEASE WAIT FOR A WHILE!!!                   |"
             echo "---------------------------------------------------------------------"
-            bash run_gem5.sh > /home/gem5/unXpecCode/SecretLeakage/EvictionSet_Sample1k.txt
-            cd /home/gem5/unXpecCode/SecretLeakage
+            bash run_gem5.sh > /home/gem5/unXpec/SecretLeakage/EvictionSet_Sample1k.txt
+            cd /home/gem5/unXpec/SecretLeakage
             echo "=============!!!Results see EvictionSet_Sample1k.txt!!!============="
             echo "*********************************************************************"
             echo ""
@@ -29,8 +29,8 @@ if [[ default -eq 1 ]]; then
     echo "|                         !!!Timing info!!!                         |"
     echo "|                   !!!PLEASE WAIT FOR A WHILE!!!                   |"
     echo "---------------------------------------------------------------------"
-    bash run_gem5.sh > /home/gem5/unXpecCode/SecretLeakage/NoEvictionSet_Sample1k.txt
-    cd /home/gem5/unXpecCode/SecretLeakage
+    bash run_gem5.sh > /home/gem5/unXpec/SecretLeakage/NoEvictionSet_Sample1k.txt
+    cd /home/gem5/unXpec/SecretLeakage
     echo "=============!!!Results see NoEvictionSet_Sample1k.txt!!!============="
     echo "*********************************************************************"
     echo ""

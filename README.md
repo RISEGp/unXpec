@@ -1,10 +1,10 @@
-# unXpecCode
+# unXpec
 
 # Experiment workflow
 
 Section VI-A, B, C, E needs docker.
 
-To run Docker, enter unXpecCode directorty, run 
+To run Docker, enter unXpec directorty, run 
 
 ```shell
 bash run.sh docker
@@ -15,7 +15,7 @@ bash run.sh docker
 In the given docker environment
 
 ```shell
-cd /home/gem5/unXpecCode
+cd /home/gem5/unXpec
 ```
 
 * To run codes without eviction sets, run
@@ -24,7 +24,7 @@ cd /home/gem5/unXpecCode
 bash run.sh TimingDifference
 ```
 
-results are `unXpecCode/TimingDifference/NoEvictionSet_Sec0.txt` and `unXpecCode/TimingDifference/NoEvictionSet_Sec1.txt`
+results are `unXpec/TimingDifference/NoEvictionSet_Sec0.txt` and `unXpec/TimingDifference/NoEvictionSet_Sec1.txt`
 
 * To run codes with eviction sets, run 
 
@@ -32,14 +32,14 @@ results are `unXpecCode/TimingDifference/NoEvictionSet_Sec0.txt` and `unXpecCode
 bash run.sh TimingDifference -e
 ```
 
-results are `unXpecCode/TimingDifference/EvictionSet_Sec0.txt` and `unXpecCode/TimingDifference/EvictionSet_Sec1.txt`
+results are `unXpec/TimingDifference/EvictionSet_Sec0.txt` and `unXpec/TimingDifference/EvictionSet_Sec1.txt`
     
 ## Section VI-B: Leakage Rate
 
 In the given docker environment
 
 ```shell 
-cd /home/gem5/unXpecCode
+cd /home/gem5/unXpec
 ```
 
 To run codes, use
@@ -55,7 +55,7 @@ Results will be printed on the console.
 In the given docker environment
 
 ```shell
-cd /home/gem5/unXpecCode
+cd /home/gem5/unXpec
 ```
 
 * To run codes without eviction sets, run
@@ -64,7 +64,7 @@ cd /home/gem5/unXpecCode
 bash run.sh SecretLeakage
 ```
 
-result is `unXpecCode/SecretLeakage/NoEvictionSet_Sample1k.txt`
+result is `unXpec/SecretLeakage/NoEvictionSet_Sample1k.txt`
 
 * To run codes with eviction sets, run 
 
@@ -72,7 +72,7 @@ result is `unXpecCode/SecretLeakage/NoEvictionSet_Sample1k.txt`
 bash run.sh SecretLeakage -e
 ```
 
-result is `unXpecCode/SecretLeakage/EvictionSet_Sample1k.txt`
+result is `unXpec/SecretLeakage/EvictionSet_Sample1k.txt`
     
 
 
@@ -84,7 +84,7 @@ The code should be run on a real machine with ubuntu operating system.
 bash run.sh NoiseInsensitivity
 ```
 
-result is `unXpecCode/NoiseInsensitivity/result.txt`
+result is `unXpec/NoiseInsensitivity/result.txt`
 
 
 
