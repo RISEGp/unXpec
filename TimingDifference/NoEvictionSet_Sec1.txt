@@ -1,0 +1,26 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Nov  5 2021 04:17:18
+gem5 started Nov  6 2021 14:18:53
+gem5 executing on f21a8accea9f, pid 36
+command line: build/X86/gem5.opt --outdir=results configs/example/spectre_config.py --benchmark=cons --num-cpus=1 --mem-size=4GB --l1d_assoc=8 --l2_assoc=16 --l1i_assoc=4 --cpu-type=DerivO3CPU --scheme_invisispec=UnsafeBaseline --needsTSO=0 --scheme_cleanupcache=Cleanup_FOR_L1L2 --num-dirs=1 --ruby --network=simple --topology=Mesh_XY --mesh-rows=1
+
+**********
+**CleanupCache Simulation Options**
+scheme_cleanupcache=Cleanup_FOR_L1L2
+options.rand_L2=1
+options.cleanupLQExecd_on_Squash=1
+options.cleanupLQInflight_on_Squash=1
+options.random_repl_L1=1
+options.l1d_mshr_tracking=1
+options.L2Inv=1
+options.InternalInterferenceHit=1
+**********
+ 
+Selected SPEC_CPU2006 benchmark
+--> cons
+['cons']
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+Exiting @ tick 0 because user interrupt received
