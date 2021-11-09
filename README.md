@@ -4,11 +4,17 @@
 
 Section VI-A, B, C, E needs docker.
 
-To run Docker, enter unXpec directorty, run 
+For VI-A, B, C, we provide a docker image `chenlumiao/unxpec:01`.To run Docker, enter unXpec directorty, run
+
 
 ```shell
 bash run.sh docker
 ```
+
+For VI-E, we provide another docker image `chenlumiao/unxpecspec:01`.
+We don’t provide a shell script, you can mount a directory on our docker image to run your spec2017 benchmarks.
+
+To run Docker, enter unXpec directorty, run 
 
 ## Section VI-A: Timing Difference. 
 
@@ -90,7 +96,9 @@ result is `unXpec/NoiseInsensitivity/result.txt`
 
 ## Section VI-E: Mitigation: Constant-time Rollback
 
-In the given docker environment
+We provide a new docker image chenlumiao/unxpecspec:01. We don’t provide a shell script to create a docker container, you can mount a directory on our docker image to run your spec2017 benchmarks.
+
+In the new docker containe
 
 ```shell
 cd /home/gem5
@@ -108,3 +116,14 @@ bash run_gem5spec.sh exchange2_r 2000000 1000000 Cleanup_FOR_L1L2
 results see `/home/gem5/test##benchmark_name`
 
 such as `/home/gem5/testexchange2_r`
+
+
+
+# Notice
+
+if you encounter a problem related with '\r', please run
+
+```shell
+sudo apt-get install dos2unix
+find . -type f -print0 | xargs -0 dos2unix
+```
