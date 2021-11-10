@@ -110,7 +110,7 @@ bash run_gem5spec.sh benchmark_name maxinst_count warmupinst_count scheme_cleanu
 such as 
 
 ```shell
-bash run_gem5spec.sh exchange2_r 2000000 1000000 Cleanup_FOR_L1L2
+bash run_gem5spec.sh exchange2_r 2000000000 100000000 Cleanup_FOR_L1L2
 ```
 
 results see `/home/gem5/test##benchmark_name`
