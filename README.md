@@ -105,7 +105,7 @@ cd /home/gem5
 ```
 
 ```shell
-bash run_gem5spec.sh benchmark_name maxinst_count warmupinst_count scheme_cleanupcache
+bash run_gem5spec.sh benchmark_name maxinst_count startinst_count scheme_cleanupcache
 ```
 such as 
 
