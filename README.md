@@ -1,5 +1,7 @@
 # unXpec
 
+Please contact Mengming Li at mmli@zju.edu.cn upon any questions for reproducing results, thanks.
+
 # Experiment workflow
 
 Section VI-A, B, C, E needs docker.
