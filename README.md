@@ -6,7 +6,7 @@ Please contact Mengming Li at mmli@zju.edu.cn upon any questions for reproducing
 
 Section VI-A, B, C, E needs docker.
 
-For VI-A, B, C, we provide a docker image `chenlumiao/unxpec:01`.To run Docker, enter unXpec directorty, run
+For VI-A, B, C, we provide a docker image `chenlumiao/unxpec:01`.To run Docker, enter unXpec directory, run
 
 
 ```shell
@@ -16,7 +16,7 @@ bash run.sh docker
 For VI-E, we provide another docker image `chenlumiao/unxpecspec:01`.
 We don’t provide a shell script, you can mount a directory on our docker image to run your spec2017 benchmarks.
 
-To run Docker, enter unXpec directorty, run 
+To run Docker, enter unXpec directory, run 
 
 ## Section VI-A: Timing Difference. 
 
@@ -100,7 +100,7 @@ result is `unXpec/NoiseInsensitivity/result.txt`
 
 We provide a new docker image chenlumiao/unxpecspec:01. We don’t provide a shell script to create a docker container, you can mount a directory on our docker image to run your spec2017 benchmarks.
 
-In the new docker containe
+In the new docker container
 
 ```shell
 cd /home/gem5
