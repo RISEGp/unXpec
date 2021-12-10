@@ -1,7 +1,5 @@
 # unXpec
 
-Please contact Mengming Li at mmli@zju.edu.cn upon any questions for reproducing results, thanks.
-
 # Experiment workflow
 
 Section VI-A, B, C, E needs docker.
@@ -99,6 +97,15 @@ result is `unXpec/NoiseInsensitivity/result.txt`
 ## Section VI-E: Mitigation: Constant-time Rollback
 
 We provide a new docker image chenlumiao/unxpecspec:01. We don’t provide a shell script to create a docker container, you can mount a directory on our docker image to run your spec2017 benchmarks.
+
+Put all benchmark files including their executable files and input files into a directory (addressed as spec_dir subsequently).
+
+Copy all files in spec_dir to the docker container created by "unxpecspec:01" with following commands:
+
+* use `docker ps` to get the container ID (addressed as ContainerID subsequently)
+
+* use `docker cp spec_dir/. ContainerID:/home/gem5`  to copy all files in spec_dir to the docker container
+
 
 In the new docker container
 
